@@ -1,0 +1,13 @@
+Step 1: Clone the fork 
+    git clone <my fork clone link>
+
+Step 2: Create remote link to the remote repo
+    git remote add upstream <original repo clone link>
+    git fetch upstream
+
+Step 3: Fetch the changes from remote repo into fork
+    git pull upstream master 
+
+Step 4: push chnages into fork in Github
+    git push 
+    // You may not see the changes in git status here
